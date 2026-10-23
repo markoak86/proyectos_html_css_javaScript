@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="juegos2.xsl"?>
+<juegos>
+    <juego id="j1" plataforma="PlayStation">
+        <titulo>The Last of Us</titulo>
+        <genero>Acción y aventura</genero>
+        <anio>2013</anio>
+        <desarrolladora>Naughty Dog</desarrolladora>
+    </juego>
+    
+    <juego id="j2" plataforma="PlayStation">
+        <titulo>God of War</titulo>
+        <genero>Acción</genero>
+        <anio>2018</anio>
+        <desarrolladora>Santa Monica Studio</desarrolladora>
+    </juego>
+    
+    <juego id="j3" plataforma="Nintendo Switch">
+        <titulo>The Legend of Zelda: Breath of the Wild</titulo>
+        <genero>Aventura</genero>
+        <anio>2017</anio>
+        <desarrolladora>Nintendo</desarrolladora>
+    </juego>
+    
+    <juego id="j4" plataforma="Nintendo Switch">
+        <titulo>Super Mario Odyssey</titulo>
+        <genero>Plataformas</genero>
+        <anio>2017</anio>
+        <desarrolladora>Nintendo</desarrolladora>
+    </juego>
+    
+    <juego id="j5" plataforma="Xbox">
+        <titulo>Halo Infinite</titulo>
+        <genero>Shooter</genero>
+        <anio>2021</anio>
+        <desarrolladora>343 Industries</desarrolladora>
+    </juego>
+    
+    <juego id="j6" plataforma="PC">
+        <titulo>Minecraft</titulo>
+        <genero>Sandbox</genero>
+        <anio>2011</anio>
+        <desarrolladora>Mojang Studios</desarrolladora>
+    </juego>
+    
+    <juego id="j7" plataforma="Nintendo Switch">
+        <titulo>Animal Crossing: New Horizons</titulo>
+        <genero>Simulación</genero>
+        <anio>2020</anio>
+        <desarrolladora>Nintendo</desarrolladora>
+    </juego>
+    
+    <juego id="j8" plataforma="PlayStation">
+        <titulo>Spider-Man</titulo>
+        <genero>Acción y aventura</genero>
+        <anio>2018</anio>
+        <desarrolladora>Insomniac Games</desarrolladora>
+    </juego>
+    
+    <juego id="j9" plataforma="Xbox">
+        <titulo>Forza Horizon 5</titulo>
+        <genero>Conducción</genero>
+        <anio>2021</anio>
+        <desarrolladora>Playground Games</desarrolladora>
+    </juego>
+    
+    <juego id="j10" plataforma="PC">
+        <titulo>League of Legends</titulo>
+        <genero>MOBA</genero>
+        <anio>2009</anio>
+        <desarrolladora>Riot Games</desarrolladora>
+    </juego>
+</juegos>

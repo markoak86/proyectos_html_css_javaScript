@@ -1,0 +1,55 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+h2{
+    color:red;
+    margin-bottom: 20px;
+}
+
+/*estilos de la tabla*/
+.tabla-contenedor{
+    box-shadow: inset;
+    border-radius: 10px;
+    overflow: hidden;
+    width: auto;
+}
+
+table{
+    width: 100%;
+    border-collapse:collapse;
+    border-color: white;
+}
+
+thead{
+    background-color: violet;
+    color: white;
+}
+
+th{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid orange;
+}
+
+/*estilos para la portada*/
+.portada-img{
+    width: 80px;
+    height: auto;
+    border-radius: 5px;
+    
+}
+
+.portada-img:hover{
+    transform: scale(1.1);
+}
+
+/*estilos fila interactiva*/
+tr:hover{
+    background-color: aquamarine;
+}

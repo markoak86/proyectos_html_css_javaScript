@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercico JavaScript y DOM</title>
+    <style>
+        body {font-family: sans-serif; padding: 20px;}
+        section {margin-bottom: 30px; padding: 10px; border: 1px solid #add; }
+        img {width: 150px; transition: 0.3s;}
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Ejercicio 1</h1>
+        <input type="text" id="inputNombre" placeholder="Escribe un nombre">
+        <button onclick="ejercicio1()">Añadir</button>
+        <ul id="listaNombres"></ul>
+        <hr>
+    </section>
+
+    <section>
+        <h1>Ejercicio 2</h1>
+        <button onclick="ejercicio2()">Mostrar Array</button>
+        <ul id="listaArray"></ul>
+        <hr>
+    </section>
+
+    <section>
+        <h1>Ejercicio 3</h1>
+        <button onclick="ejercicio3()">Cambiar fondo</button>
+        <hr>
+    </section>
+
+    <section>
+        <h1>Ejercicio 4</h1>
+        <p id="parrafo azul">Este texto cambiara a azul</p>
+        <button onclick="ejercicio4()">Cambiar Color</button>
+        <hr>
+    </section>
+
+    <section>
+        <h1>Ejercicio 5</h1>
+        <img id="miImagen" src="http://via.placeholder.com/150" alt="imagen de prueba">
+        <br>
+        <button onclick="ejercicio5()">Aumetar tamaño</button>
+    </section>
+
+    <section>
+        <h1>Ejercicio 6</h1>
+        <p id="parrafosVarios">Parrafo con multiples estilos</p>
+        <button onclick="ejercicio6()">Cambiar estilos</button>
+        <hr>
+    </section>
+
+    <section>
+        <h1>Ejercicio 7</h1>
+        <input type="text" id="inputDiv" placeholder="Texto para el div">
+        <button onclick="ejercicio7()">Pasa al div</button>
+        <div id="resultadoDiv" style="border: 1px dashed gray; padding: 10px; margin-top: 5px;"></div>
+    
+    </section>
+
+    <script>
+        //1.Añadir a la lista
+        function ejercicio1() {
+            const nombre= document.getElementById("inputNombre").value;
+            const lista= document.getElementById("listaNombres")
+            if (nombre) {
+                lista.innerHTML += `<li>${nombre}</li>`
+                document.getElementById("inputNombre").value="";
+            }
+        }
+
+        //2.Mostrar array
+        function ejercicio2() {
+            const nombres= ["Ana", "Luis", "Marta", "Carlos"];
+            const lista= document.getElementById("listaArray");
+            lista.innerHTML= "";
+            nombres.forEach(n => {
+                lista.innerHTML += `<li>${n}</li>`;
+            });
+        }
+
+        //3.Cambiar fondo mediante prompt
+        function ejercicio3() {
+            const color= prompt("introduce un color");
+            document.body.style.backgroundColor= color;
+        }
+
+        //4.Cambiar texto a azul
+        function ejercicio4() {
+            document.getElementById("parrafo azul").style.color= "blue";
+        }
+
+        //5.Aumentar tamaño de la imagen
+        function ejercicio5() {
+            const img= document.getElementById("miImagen");
+            img.style.width= (img.clientWidth + 20) + px;
+        }
+
+        //6.Cambiar varios estilos
+        function ejercicio6() {
+            const p=document.getElementById("parrafosVarios");
+            p.style.color= "white";
+            p.style.fontSize= "24px";
+            p.style.backgroundColor= "black";
+        }
+
+        //7.Input al div
+        function ejercicio7() {
+            const texto= document.getElementById("inputDiv").value;
+            document.getElementById("resultadoDiv").innerHTML= texto;
+
+        }
+    </script>
+
+
+
+    
+</body>
+</html>

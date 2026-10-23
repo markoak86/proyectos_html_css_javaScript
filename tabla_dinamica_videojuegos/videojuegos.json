@@ -1,0 +1,34 @@
+
+[
+    {"titulo": "The Legend of Zelda",
+        "desarrolladora": "Nintendo",
+        "lanzamiento": 2017,
+        "portada":"https://www.nintendo.com/eu/media/images/10_share_images/games_15/wiiu_14/SI_WiiU_TheLegendOfZeldaBreathOfTheWild_image1600w.jpg"
+    
+    },
+
+    {"titulo": "Elden Ring",
+        "desarrolladora": "FromSoftware",
+        "lanzamiento": 2022,
+        "portada":"https://image.api.playstation.com/vulcan/ap/rnd/202107/1612/Y5RHNmzAtc6sRYwZlYiKHAxN.png"
+
+    },
+
+    {"titulo":"Minecraft",
+        "desarrolladora": "Mojang",
+        "lanzamiento":2011,
+        "portada": "https://4kwallpapers.com/images/walls/thumbs_2t/21999.jpg"
+    },
+
+    {"titulo": "God of War",
+        "desarrolladora": "Santa Monica",
+        "lanzamiento": 2018,
+        "portada":"https://cdn1.epicgames.com/spt-assets/edaff839f0734d16bc89d2ddb1dc9339/steel-magnolia-15owu.jpg"
+    },
+
+    {"titulo": "Ciberpunk 2077",
+        "desarrolladora": "CD Projekt Red",
+        "lanzamiento": 2020,
+        "portada": "https://image.api.playstation.com/vulcan/ap/rnd/202311/2812/ae84720b553c4ce943e9c342621b60f198beda0dbf533e21.jpg"
+    }
+]
